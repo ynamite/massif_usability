@@ -1,0 +1,9 @@
+package: massif_usability
+version: '1.0.0'
+author: Yves Torres (ynamite)
+supportpage: https://github.com/ynamite/massif_usability
+
+requires:
+    redaxo: '>=5.10'
+    packages:
+        yform: '>=4'
