@@ -7,9 +7,12 @@ temporäres Ersatz-Plugin für yform_usability für yform >=4 – bietet ähnlic
 Momentan verfügbar:
 
 -   Datensatz kopieren
--   on-/offline Toggle
+-   Status on-/offline Toggle – __wichtig__: Feld "status" muss existieren. Werte: `0=offline,1=online`)
+-   benutzerdefinierte Toggles
 
-Leider kein Drag&Drop – sawry!
+_Leider kein Drag&Drop – sawry!_
+
+---
 
 ### Beispiel für ein benutzerdefiniertes Toggle
 
