@@ -2,7 +2,14 @@
 
 Package für REDAXO CMS >= 5.10.0
 
-temporäres Plugin für yform 4 – bietet ähnliche Funktionalität wie yform usability
+temporäres Ersatz-Plugin für yform_usability für yform >=4 – bietet ähnliche Funktionalität wie yform usability
+
+Momentan verfügbar:
+
+-   Datensatz kopieren
+-   on-/offline Toggle
+
+Leider kein Drag&Drop – sawry!
 
 ### Beispiel für ein benutzerdefiniertes Toggle (wie Status offline/online Button)
 
