@@ -6,6 +6,12 @@ temporäres Plugin für yform 4 – bietet ähnliche Funktionalität wie yform u
 
 ### Beispiel für ein benutzerdefiniertes Toggle (wie Status offline/online Button)
 
-```massif_usability::registerCustomToggle(table_name: String, field_name: String, off_state: String (HTML allowed), on_state: String (HTML allowed));```
+```
+massif_usability::registerCustomToggle(table_name: String, field_name: String, off_state: String (HTML allowed), on_state: String (HTML allowed));
+```
+
 zBsp:
-```massif_usability::registerCustomToggle('rex_yf_event', 'is_highlight', '<i class="fa fa-star"></i>', '<i class="fa fa-star"></i>');```
+
+```
+massif_usability::registerCustomToggle('rex_yf_event', 'is_highlight', '<i class="fa fa-star"></i>', '<i class="fa fa-star"></i>');
+```
