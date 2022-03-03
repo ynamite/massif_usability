@@ -22,7 +22,7 @@ if (rex::isBackend() && rex::getUser()) {
 
 if (\rex::isBackend() && \rex::getUser() && \rex_plugin::get('yform', 'manager')) {
 
-  \rex_view::setJsProperty('ajax_url', \rex_url::frontendController(\rex_csrf_token::factory('rex_api_massif_usability')->getUrlParams()));
+  \rex_view::setJsProperty('ajax_url', \rex_url::backendController(\rex_csrf_token::factory('rex_api_massif_usability')->getUrlParams()));
 
   \rex_extension::register("YFORM_DATA_LIST", [massif_usability::class, 'ep_yform_data_list']);
   \rex_extension::register("YFORM_DATA_LIST_ACTION_BUTTONS", [massif_usability::class, 'ep_yform_action_buttons']);
