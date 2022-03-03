@@ -38,6 +38,6 @@ Gerne als Issue oder im Redaxo Slack Channel
 
 -   fixed wrong backend user shown in historie addon
 
-### Version 1.0.2 // 03.03.2022
+### Version 1.0.1 // 03.03.2022
 
 -   replaced rex_sql with yorm in api functions
